@@ -1,0 +1,6 @@
+# shamelessly stolen from https://docs.docker.com/get-started/docker-concepts/running-containers/publishing-ports/
+services:
+  app:
+    image: dorathh/kompletteringsuppgift:latest
+    ports:
+      - 8080:80
